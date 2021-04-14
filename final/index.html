@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sajid Akhtar</title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <nav class="flex-nav">
+      <ul>
+        <li><a href="#">Sajid Akhtar | Fullstack Developer</a></li>
+        <!-- <li><a href="#">Projects</a></li> -->
+        <li class="social">
+            <a href="https://github.com/Sajakhtar" target="_blank"><i class="fab fa-github"></i></a>
+          </li>
+        <li class="social">
+          <a href="https://twitter.com/Sajakhta" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="social">
+          <a href="https://www.linkedin.com/in/sajakhtar/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </li>
+        <li class="social">
+            <a href="#" onclick="darkMode()"><i class="fas fa-moon" id="darkmode"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="flex-content">
+
+      <div class="flex-project">
+        <div class="project_pic">
+            <img class="css" src="light/css.png">
+        </div>
+        <h3 class="category">Flexbox</h3>
+        <div class="flex-demo">
+            <a href="https://github.com/Sajakhtar/wesbos_flexbox" target="_blank" class="code">
+                <i class="fas fa-code"></i>
+            </a>
+            <a href="https://sajakhtar.github.io/wesbos_flexbox/" target="_blank" class="live">
+                <i class="fas fa-laptop-code"></i>
+            </a>
+        </div>
+        <p class="description">Solutions to Wes Bos What The Flexbox?! CSS course with notes in the GitHub Readme file and live on GitHub Pages.</p>
+      </div>
+
+      <div class="flex-project">
+        <div class="project_pic">
+            <img src="light/markdown.png">
+        </div>
+        <h3 class="category">Markdown</h3>        
+        <div class="flex-demo">
+            <a href="https://github.com/Sajakhtar/wesbos_markdown" target="_blank" class="code">
+                <i class="fas fa-code"></i>
+            </a>
+            <a href="https://sajakhtar.github.io/wesbos_markdown/" target="_blank" class="live">
+                <i class="fas fa-laptop-code"></i>
+            </a>
+        </div>
+        <p class="description">Solutions to Wes Bos Mastering Markdown course with notes in the GitHub Readme file and live on GitHub Pages.</p>
+    </div>
+
+    <div class="flex-project">
+        <div class="project_pic">
+            <img src="light/nodejs.png">
+        </div>
+        <h3 class="category">MERN Stack</h3>        
+        <div class="flex-demo">
+            <a href="https://github.com/Sajakhtar/astrolabsfinalproject" target="_blank" class="code">
+                <i class="fa fa-code"></i>
+            </a>
+            <a href="https://still-cliffs-59814.herokuapp.com/" target="_blank" class="live">
+                <i class="fas fa-laptop-code"></i>
+            </a>
+        </div>
+        <p class="description">MERN Stack Web app with login, registration and profile creation, authentication and state management of logged in users. Technology used inlcudes HTML, Bootstrap, Express, React, React-Router, Redux, Axios for REST API calls, mLab for cloud hosted MongoDB, Passport JS + JWT for authentication, Heroku for hosting.</p>
+    </div>
+
+    <div class="flex-project">
+        <div class="project_pic">
+            <img src="light/ml.png">
+        </div>        
+        <h3 class="category">Python Machine Learning</h3>
+        <div class="flex-demo">
+            <a href="https://github.com/Sajakhtar/python_data_science" target="_blank" class="code">
+                <i class="fas fa-code"></i>
+            </a>
+        </div>        
+        <p class="description">Code alongs and solutions to Jose Portilla Udemy course in Python for Data Science and Machine Learning Bootcamp. All Jupyter Notebooks are available on GitHub. The Libarires used include Pandas, Numpy, Matplotlib, Seaborn, Plotly, Scikit-learn and TensorFlow. Topics covered include data analysis, data visualization, feature engineering, linear regeression, logisitc regression, cross-validation, K-nearest neighbors, K-means clustering, principal component analysis, Recommender systems, Natrual language Processing and Deep learning/ Neural Networks. </p>
+    </div>
+
+    <div class="flex-project">
+        <div class="project_pic">
+            <img src="light/python.png">
+        </div>
+        <h3 class="category">Python 3</h3>        
+        <div class="flex-demo">
+            <a href="https://github.com/Sajakhtar/python_3" target="_blank" class="code">
+                <i class="fas fa-code"></i>
+            </a>
+        </div>        
+        <p class="description">Code alongs and solutions to Jose Portilla Udemy course, Python 3 Masterclass. All Jupyter Notebooks are available on GitHub. Topics covered include control flow, functions, Object Oriented Programming, workig with files/ folders (ZIP, CSV, PDF), web scraping with Beautiful Soup, sending emails, Geo-mapping, and encryption.</p>
+    </div>
+
+    <div class="flex-project">
+        <div class="project_pic">
+            <img src="light/gcf.png">
+        </div>        
+        <h3 class="category">Google Cloud Functions</h3>        
+        <div class="flex-demo">
+            <a href="https://github.com/Sajakhtar/google_cloud_functions" target="_blank" class="code">
+                <i class="fas fa-code"></i>
+            </a>
+        </div>
+        <p class="description">Google Cloud Functions (Functions as a Service - FaaS) with Python via short Udemy course. Covering topics such as sending emails via SendGrid API, scheduling, environment variabls and CORS.</p>
+    </div>
+
+    <div class="flex-project">
+        <div class="project_pic">
+            <img src="light/css.png">
+        </div>
+        <h3 class="category">Profile Page</h3>        
+        <div class="flex-demo">
+            <a href="https://github.com/Sajakhtar/firstprofilepage" target="_blank" class="code">
+                <i class="fa fa-code"></i>
+            </a>
+            <a href="https://sajakhtar.github.io/firstprofilepage/" target="_blank" class="live">
+                <i class="fas fa-laptop-code"></i>
+            </a>
+        </div>
+        <p class="description">First example of a fully responsive profile page, created using HTML5, CSS3 and Formspree as a means for people to contact me via email. Hosted on Github pages.</p>
+    </div>
+
+    <div class="flex-project">
+        <div class="project_pic">
+            <img src="light/js.png">
+        </div>        
+        <h3 class="category">JavaScript Objects</h3>        
+        <div class="flex-demo">
+            <a href="https://github.com/Sajakhtar/javascriptassignment" target="_blank" class="code">
+                <i class="fas fa-code"></i>
+            </a>
+            <a href="https://sajakhtar.github.io/javascriptassignment/" target="_blank" class="live">
+                <i class="fas fa-laptop-code"></i>
+            </a>
+        </div>        
+        <p class="description">Exercises in JavaScript objects, hosted on GitHub Pages.</p>
+    </div>
+
+    </div>
+
+  </div>
+  
+  <!-- Dark Mode function -->
+  <script>
+      function darkMode() {
+        //console.log("dark mode triggered");
+
+        // change body CSS from white to black (vice versa)
+        document.body.classList.toggle("dark-mode");
+
+        // change darkmode icon from moon to sun (vice-versa)
+        document.getElementById("darkmode").classList.toggle("fa-sun");
+
+        // change a, h3, p tags white to black (vice versa)
+
+
+        // HtmlCollection of images, a, h3, p tags
+        images = document.getElementsByTagName("IMG");
+        aTags = document.getElementsByTagName("A");
+        pTags = document.getElementsByTagName("P");
+        h3Tags = document.getElementsByTagName("H3");
+        projectDivs = document.getElementsByClassName("flex-project");
+
+        // check if in dark or light mode
+        if(document.getElementById("darkmode").classList.value.includes('sun')){
+            
+            // if in dark mode change images to darkmode version
+            for(image of images){
+                image.srcset = image.src.replace('light','dark')  
+            }
+
+            // change a, h3, p tag  CSS from white to black
+            for(aTag of aTags){
+                aTag.style.color = "lightgrey";  
+            }
+
+            for(pTag of pTags){
+                pTag.style.color = "lightgrey";  
+            }
+
+            for(h3Tag of h3Tags){
+                h3Tag.style.color = "lightgrey";  
+            }
+
+            // Update Project Div box-shadow to 1px 3px 3px 3px rgba(128, 128, 128, 0.3)
+            for(div of projectDivs){
+                div.style.boxShadow = "1px 3px 3px 3px rgba(128, 128, 128, 0.3)";  
+            }
+
+        } else if(document.getElementById("darkmode").classList.value.includes('moon')){
+
+             // if in light mode change images to lightmode version
+            for(image of images){
+                image.srcset = image.src.replace('dark','light')  
+            }
+
+            // change a, h3, p tag  CSS from white to black
+            for(aTag of aTags){
+                aTag.style.color = "black";  
+            }
+
+            for(pTag of pTags){
+                pTag.style.color = "black";  
+            }
+
+            for(h3Tag of h3Tags){
+                h3Tag.style.color = "black";  
+            }
+
+            // Update Project Div box-shadow to 2px 3px 3px 3px rgba(0, 0, 0, 0.1)
+            for(div of projectDivs){
+                div.style.boxShadow = "2px 3px 3px 3px rgba(0, 0, 0, 0.1)";  
+            }
+
+        }
+
+      }
+  </script>
+
+
+</body>
+</html>
